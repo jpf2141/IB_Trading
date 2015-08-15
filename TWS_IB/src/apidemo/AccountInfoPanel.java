@@ -3,7 +3,7 @@
 
 package apidemo;
 
- import static com.ib.controller.Formats.fmt0;
+import static com.ib.controller.Formats.fmt0;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
