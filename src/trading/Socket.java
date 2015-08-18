@@ -13,6 +13,7 @@ public class Socket {
 
 	// Initialize the EClientSocket using the CustomerWrapper
 	public static EClientSocket connection = new EClientSocket(new CustomWrapper());
+	public int connectionID;
 
 	// Connect to the TWS
 	public static boolean connect(String host, int port, int clientId) {
