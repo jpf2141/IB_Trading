@@ -47,6 +47,8 @@ public class AccountInfoPanel extends JPanel implements INewTab, IAccountHandler
 	private JLabel m_lastUpdated = new JLabel();
 
 	AccountInfoPanel() {
+		
+		// 
 		m_lastUpdated.setHorizontalAlignment( SwingConstants.RIGHT);
 		
 		m_accounts.setPreferredSize( new Dimension( 10000, 100) );
