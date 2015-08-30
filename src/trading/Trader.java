@@ -22,7 +22,7 @@ public class Trader {
 			return;		//connection failed, return
 		}
 		
-		getStock();
+		
 		
 		
 		trader.socket.disconnect();
@@ -30,13 +30,5 @@ public class Trader {
 	
 	}
 
-	private static void getStock() {
-		
-		
-		
-		
-		
-		
-	}
 	
 }
