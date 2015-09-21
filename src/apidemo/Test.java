@@ -32,12 +32,15 @@ public class Test implements EWrapper {
 	}
 
 	@Override public void error(int id, int errorCode, String errorMsg) {
+		System.out.println(errorMsg);
 	}
 
 	@Override public void connectionClosed() {
 	}
 
 	@Override public void error(String str) {
+		System.out.println(str);
+
 	}
 
 	@Override public void tickPrice(int tickerId, int field, double price, int canAutoExecute) {
